@@ -8,7 +8,9 @@
 
 import Foundation
 
-// MARK: - Comic
+// MARK: - Model -
+
+// MARK: Comic
 struct Comic: Codable, Hashable {
     let month: String
     let num: Int
